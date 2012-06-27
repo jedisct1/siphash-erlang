@@ -1,0 +1,5 @@
+Public domain.
+
+SipHash was designed by Jean-Philippe Aumasson and and Daniel J. Bernstein.
+
+Erlang NIF by Frank Denis.
