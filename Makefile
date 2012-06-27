@@ -17,7 +17,10 @@ depends:
 build: depends
 	$(REBAR) compile
 
-check: build
+eunit:
+	$(REBAR) eunit skip_deps=true
+
+check: build eunit
 
 %.beam: %.erl
 	erlc -o test/ $<
