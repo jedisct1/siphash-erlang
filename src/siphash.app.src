@@ -1,0 +1,6 @@
+{application, siphash, [
+    {description, "SipHash-2-4"},
+    {vsn, git},
+    {registered, []},
+    {applications, [kernel]}
+]}.
