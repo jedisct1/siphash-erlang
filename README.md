@@ -17,5 +17,4 @@ Usage
         Types:
             Key = binary()
             Message = binary()
-        Returns a 8 byte binary, given a 16 byte key and an arbitrary
-        long message.
+        Returns a 8 byte binary, given a 16 byte key and an arbitrary long message.
