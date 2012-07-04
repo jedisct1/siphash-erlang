@@ -14,6 +14,7 @@ init() ->
     end,
     erlang:load_nif(filename:join(PrivDir, "siphash"), 0).    
 
+-spec hash24(Key :: binary(), Message :: binary()) -> binary().
 hash24(Key, Message) ->
     nif_hash24(Key, Message).
 
