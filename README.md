@@ -2,7 +2,7 @@ siphash-erlang
 ==============
 
 An Erlang NIF for
-[SipHash-2-4](http://131002.net/siphash/)
+[SipHash-2-4](https://www.aumasson.jp/siphash/siphash.pdf)
 
 > SipHash is a family of pseudorandom functions optimized for short
 > inputs. Target applications include network traffic authentication and
