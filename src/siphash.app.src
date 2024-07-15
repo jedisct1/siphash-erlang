@@ -2,5 +2,5 @@
     {description, "SipHash-2-4"},
     {vsn, git},
     {registered, []},
-    {applications, [kernel]}
+    {applications, [kernel, stdlib]}
 ]}.
